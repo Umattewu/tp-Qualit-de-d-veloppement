@@ -33,3 +33,7 @@ def test_division():
     import main.main as m
     assert m.division('/',"IV","II") == 2
     assert m.division('/', "IV", "0") == "Erreur"
+    
+def test_afficher_chiffre_romain():
+    import main.main as m
+    assert m.afficher_chiffre_romain(2006) == "MMVI"
